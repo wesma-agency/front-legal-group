@@ -1,0 +1,28 @@
+.main-banner {
+	// .main-banner__inner
+	&__inner {
+		position: relative;
+		top: 65px;
+	}
+	// .main-banner__img
+	&__img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		max-width: 1920px;
+		z-index: -1;
+		img {
+			width: 100%;
+		}
+	}
+	// .main-banner__title
+	&__title {
+	}
+	// .main-banner__title-text
+	&__title-text {
+	}
+	// .main-banner__btn
+	&__btn {
+	}
+}

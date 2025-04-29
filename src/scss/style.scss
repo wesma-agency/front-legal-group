@@ -1,0 +1,48 @@
+@import './base/_fonts.scss';
+@import './base/_null-style.scss';
+
+//==========================================================================================================================================================
+// colors
+$main-green: #299987;
+$green-dark: #26776e;
+$green-dark-hover: #20635c;
+$light-green: #e4f4f1;
+$light-green-darker: #75bfb3;
+
+// body
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	line-height: 135%;
+	color: #464850;
+	background: #fff;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	&.lock {
+		overflow: hidden;
+	}
+}
+
+.wrapper {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	.main {
+		flex: 1 1 auto;
+	}
+}
+
+.container {
+	max-width: 1374px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+
+//==========================================================================================================================================================
+@import './header';
+@import './_main';
+@import './_footer';
