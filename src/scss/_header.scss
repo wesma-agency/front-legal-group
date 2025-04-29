@@ -8,6 +8,8 @@
 	border-bottom-left-radius: 11px;
 	border-bottom-right-radius: 11px;
 	background-color: #fff;
+	overflow: hidden;
+	z-index: 99;
 }
 .header-inner {
 	display: flex;
@@ -157,6 +159,11 @@
 }
 
 @media (max-width: 1920px) {
+	.callback-item__burger-btn {
+		display: none;
+	}
+}
+@media (width >= 1920px) {
 	.callback-item__burger-btn {
 		display: none;
 	}
